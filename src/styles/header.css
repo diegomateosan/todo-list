@@ -1,0 +1,33 @@
+.todo-header{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    gap: 10px;
+}
+
+.todo-header-title{
+    font-weight: 500;
+    margin: 0;
+    font-size: 2rem;    
+}
+
+.new-todo{
+    outline-style: none;
+    width: 80%; 
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    border-bottom: 1px solid  #ddd;
+}
+
+
+.new-todo::placeholder{
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.new-todo:focus {
+    border-bottom: 1px solid ;
+}
+

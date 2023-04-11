@@ -1,0 +1,19 @@
+.todo-filters{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.todo-filter{
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 3px 10px;
+    font-size: 12px;
+    
+}
+
+.todo-filter:focus{
+    background-color:  #2cb5a0;
+}
+

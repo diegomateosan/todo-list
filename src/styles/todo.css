@@ -1,0 +1,48 @@
+.todo{
+    width: 80%;
+    position: relative;
+    display: flex;
+    align-items: center;  
+}
+
+.completed{
+    opacity: .8;
+    text-decoration: line-through;
+}
+
+.toggle{
+    appearance: none;
+    cursor: pointer;
+    background-color: #fff;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #888
+}
+
+.todo > label {
+    width: 85%;
+    margin-left: 0px;
+}
+
+.todo-title{
+    width: 100%;
+    border:none;
+    outline-style: none;
+    background-color: #171717;
+    color:#e8e8e8;
+}
+
+.toggle:checked {
+    background-color: #2cb5a0;
+}
+
+.remove-todo{
+    position: absolute;
+    right: 0;
+    padding: 0;
+    background: none;
+    border: none; 
+    cursor: pointer;
+}
+

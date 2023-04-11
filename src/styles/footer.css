@@ -1,0 +1,12 @@
+.todo-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    height: 30px;
+}
+
+.activeTodos{ 
+    font-weight: 100;
+    font-size: 12px;
+}
